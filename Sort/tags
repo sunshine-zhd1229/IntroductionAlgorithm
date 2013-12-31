@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BaseSortBin	BaseSort.c	/^void BaseSortBin(int *Array, int length, int digitNum, int radix)$/;"	f	signature:(int *Array, int length, int digitNum, int radix)
+BubbleSort	BubbleSort.c	/^void BubbleSort(int *Array, int size)$/;"	f	signature:(int *Array, int size)
+BubbleSort	sort.h	/^void BubbleSort(int *Array, int size);$/;"	p	signature:(int *Array, int size)
+CountSort	CountingSort.c	/^void CountSort(int *Array, int length, int limit) {$/;"	f	signature:(int *Array, int length, int limit)
+CountSort	sort.h	/^void CountSort(int *Array, int length, int limit);$/;"	p	signature:(int *Array, int length, int limit)
+InsertionSort	InsertionSort.c	/^void InsertionSort(int *Array, int length)$/;"	f	signature:(int *Array, int length)
+InsertionSort	sort.h	/^void InsertionSort(int *Array, int length);$/;"	p	signature:(int *Array, int length)
+InsertionSortAllType	InsertionSort.c	/^void InsertionSortAllType(void *array, size_t nmemb, size_t memsize, int (*compar)(const void *, const void *))$/;"	f	signature:(void *array, size_t nmemb, size_t memsize, int (*compar)(const void *, const void *))
+InsertionSortAllType	sort.h	/^void InsertionSortAllType(void *array, size_t nmemb, size_t memsize, int (*compar)(const void *, const void *));$/;"	p	signature:(void *array, size_t nmemb, size_t memsize, int (*compar)(const void *, const void *))
+Merge	MergeSort.c	/^void Merge(int *Array, int p, int q, int r) $/;"	f	signature:(int *Array, int p, int q, int r)
+Merge	sort.h	/^void Merge(int *Array, int p, int q, int r);$/;"	p	signature:(int *Array, int p, int q, int r)
+MergeSort	MergeSort.c	/^void MergeSort(int *Array, int start, int end) $/;"	f	signature:(int *Array, int start, int end)
+MergeSort	sort.h	/^void MergeSort(int *Array, int start, int end);$/;"	p	signature:(int *Array, int start, int end)
+Partition	QuickSort.c	/^int Partition(int Array[], int start, int end)$/;"	f	signature:(int Array[], int start, int end)
+Partition	sort.h	/^int  Partition(int Array[], int start, int end);$/;"	p	signature:(int Array[], int start, int end)
+Print	test.c	/^void Print(int A[]) $/;"	f	signature:(int A[])
+Print	test.c	/^void Print(int A[]); $/;"	p	file:	signature:(int A[])
+QuickSort	QuickSort.c	/^void QuickSort(int Array[], int start, int end)$/;"	f	signature:(int Array[], int start, int end)
+QuickSort	sort.h	/^void QuickSort(int Array[], int start, int end);$/;"	p	signature:(int Array[], int start, int end)
+SIZE	test.c	5;"	d	file:
+compare	test.c	/^int compare(const void *a, const void *b)$/;"	f	signature:(const void *a, const void *b)
+compare	test.c	/^int compare(const void *a, const void *b);$/;"	p	file:	signature:(const void *a, const void *b)
+main	test.c	/^int main(void) $/;"	f	signature:(void)
+revise	MergeSort.c	/^int revise = 0;$/;"	v

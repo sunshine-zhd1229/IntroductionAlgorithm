@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CreateHashTable	HashTable.c	/^struct Hash_Table* CreateHashTable() $/;"	f
+DELETED	HashTable.c	7;"	d	file:
+DELETE_OK	HashTable.c	11;"	d	file:
+HASH_INSERT_OK	HashTable.c	4;"	d	file:
+HashDelete	HashTable.c	/^int HashDelete(struct Hash_Table *table, int j, int table_index) {$/;"	f	signature:(struct Hash_Table *table, int j, int table_index)
+HashInsert	HashTable.c	/^int HashInsert(struct Hash_Table *table, int key)$/;"	f	signature:(struct Hash_Table *table, int key)
+HashSearch	HashTable.c	/^int HashSearch(struct Hash_Table *table, int key, int *table_index)$/;"	f	signature:(struct Hash_Table *table, int key, int *table_index)
+Hash_Table	HashTable.c	/^} Hash_Table;$/;"	t	typeref:struct:table_meta	file:
+NIL	HashTable.c	6;"	d	file:
+NOT_IN_TABLE	HashTable.c	9;"	d	file:
+TABLE_FULL	HashTable.c	3;"	d	file:
+USED	HashTable.c	8;"	d	file:
+WRONG_ARG	HashTable.c	10;"	d	file:
+__anon1::data	HashTable.c	/^	void *data;$/;"	m	struct:__anon1	file:	access:public
+__anon1::flag	HashTable.c	/^	int flag = NIL;$/;"	m	struct:__anon1	file:	access:public
+data	HashTable.c	/^	void *data;$/;"	m	struct:__anon1	file:	access:public
+flag	HashTable.c	/^	int flag = NIL;$/;"	m	struct:__anon1	file:	access:public
+hash_value	HashTable.c	/^} hash_value; $/;"	t	typeref:struct:__anon1	file:
+next	HashTable.c	/^	struct table_meta *next;$/;"	m	struct:table_meta	typeref:struct:table_meta::table_meta	file:	access:public
+table_list	HashTable.c	/^	struct hash_value table_list[table_meta_size];$/;"	m	struct:table_meta	typeref:struct:table_meta::hash_value	file:	access:public
+table_meta	HashTable.c	/^typedef struct table_meta{$/;"	s	file:
+table_meta::next	HashTable.c	/^	struct table_meta *next;$/;"	m	struct:table_meta	typeref:struct:table_meta::table_meta	file:	access:public
+table_meta::table_list	HashTable.c	/^	struct hash_value table_list[table_meta_size];$/;"	m	struct:table_meta	typeref:struct:table_meta::hash_value	file:	access:public
+table_meta_size	HashTable.c	5;"	d	file:

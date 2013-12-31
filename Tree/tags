@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CreateTree	BinarySearchTree.c	/^TreeNode * CreateTree(void *array, int length, size_t memsize, int (*compare)(const void *, const void *))$/;"	f	signature:(void *array, int length, size_t memsize, int (*compare)(const void *, const void *))
+CreateTree	BinarySearchTree.h	/^TreeNode * CreateTree(void *array, int length, size_t memsize, int (*compare)(const void *, const void *));$/;"	p	signature:(void *array, int length, size_t memsize, int (*compare)(const void *, const void *))
+Delete	BinarySearchTree.c	/^void Delete(TreeNode **Tree, TreeNode *current, TreeNode *parent)$/;"	f	signature:(TreeNode **Tree, TreeNode *current, TreeNode *parent)
+DeleteFromTree	BinarySearchTree.c	/^TreeNode * DeleteFromTree(TreeNode ** Tree, TreeNode *x)$/;"	f	signature:(TreeNode ** Tree, TreeNode *x)
+InOrderTreeWalk	BinarySearchTree.c	/^void InOrderTreeWalk(TreeNode * Tree, void (*Print)(void *))$/;"	f	signature:(TreeNode * Tree, void (*Print)(void *))
+InOrderTreeWalk	BinarySearchTree.h	/^void InOrderTreeWalk(TreeNode * Tree, void (*Print)(void *));$/;"	p	signature:(TreeNode * Tree, void (*Print)(void *))
+InsertIntoTree	BinarySearchTree.c	/^void InsertIntoTree(TreeNode **Tree, void *data, int (*compare)(const void *, const void *)) $/;"	f	signature:(TreeNode **Tree, void *data, int (*compare)(const void *, const void *))
+InsertTree	BinarySearchTree.h	/^void InsertTree(TreeNode **Tree, void *data, int (*compare)(const void *, const void *));$/;"	p	signature:(TreeNode **Tree, void *data, int (*compare)(const void *, const void *))
+MaximumOfTree	BinarySearchTree.c	/^TreeNode * MaximumOfTree(TreeNode * Tree)$/;"	f	signature:(TreeNode * Tree)
+MinimumOfTree	BinarySearchTree.c	/^TreeNode * MinimumOfTree(TreeNode * Tree)$/;"	f	signature:(TreeNode * Tree)
+Node	BinarySearchTree.h	/^typedef struct Node {$/;"	s
+Node::data	BinarySearchTree.h	/^	void 		*data;$/;"	m	struct:Node	access:public
+Node::left	BinarySearchTree.h	/^	struct Node *left;$/;"	m	struct:Node	typeref:struct:Node::Node	access:public
+Node::parent	BinarySearchTree.h	/^	struct Node	*parent;$/;"	m	struct:Node	typeref:struct:Node::Node	access:public
+Node::right	BinarySearchTree.h	/^	struct Node *right;$/;"	m	struct:Node	typeref:struct:Node::Node	access:public
+PredecessorOfTree	BinarySearchTree.c	/^TreeNode * PredecessorOfTree(TreeNode * Tree, TreeNode *x)$/;"	f	signature:(TreeNode * Tree, TreeNode *x)
+Print	test.c	/^void Print(int A[]) $/;"	f	signature:(int A[])
+Print	test.c	/^void Print(int A[]); $/;"	p	file:	signature:(int A[])
+PrintKey	test.c	/^void PrintKey(void * data)$/;"	f	signature:(void * data)
+PrintKey	test.c	/^void PrintKey(void *data);$/;"	p	file:	signature:(void *data)
+Random	Random.c	/^int Random(int start, int end)$/;"	f	signature:(int start, int end)
+Random	Random.h	/^int Random(int start, int end);$/;"	p	signature:(int start, int end)
+RandomInPlace	Random.h	/^void RandomInPlace(void *Array, int length, size_t memsize);$/;"	p	signature:(void *Array, int length, size_t memsize)
+RandomInPlace	RandomInPlace.c	/^void RandomInPlace(void *Array, int length, size_t memsize)$/;"	f	signature:(void *Array, int length, size_t memsize)
+SIZE	test.c	5;"	d	file:
+SearchInTree	BinarySearchTree.c	/^TreeNode * SearchInTree(TreeNode * Tree, void *key, int (*compare)(const void *, const void *))$/;"	f	signature:(TreeNode * Tree, void *key, int (*compare)(const void *, const void *))
+SuccessorOfTree	BinarySearchTree.c	/^TreeNode * SuccessorOfTree(TreeNode * Tree, TreeNode * x)$/;"	f	signature:(TreeNode * Tree, TreeNode * x)
+TreeNode	BinarySearchTree.h	/^} TreeNode;$/;"	t	typeref:struct:Node
+compare	test.c	/^int compare(const void *a, const void *b)$/;"	f	signature:(const void *a, const void *b)
+compare	test.c	/^int compare(const void *a, const void *b);$/;"	p	file:	signature:(const void *a, const void *b)
+data	BinarySearchTree.h	/^	void 		*data;$/;"	m	struct:Node	access:public
+left	BinarySearchTree.h	/^	struct Node *left;$/;"	m	struct:Node	typeref:struct:Node::Node	access:public
+main	test.c	/^int main(void) $/;"	f	signature:(void)
+parent	BinarySearchTree.h	/^	struct Node	*parent;$/;"	m	struct:Node	typeref:struct:Node::Node	access:public
+right	BinarySearchTree.h	/^	struct Node *right;$/;"	m	struct:Node	typeref:struct:Node::Node	access:public

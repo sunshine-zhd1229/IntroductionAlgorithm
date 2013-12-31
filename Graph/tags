@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Black	Graph.c	6;"	d	file:
+BroadFirstSearch	Graph.c	/^void BroadFirstSearch(VertexHead * Graph, int Start) {$/;"	f	signature:(VertexHead * Graph, int Start)
+BroadFirstSearch	Graph.h	/^void BroadFirstSearch(VertexHead * Graph, int Start);$/;"	p	signature:(VertexHead * Graph, int Start)
+Color	Graph.h	/^	int 	Color;$/;"	m	struct:VertexNode	access:public
+CreatDirectedGraph	Graph.c	/^VertexHead *CreatDirectedGraph(int Nvertex, int Nedge) $/;"	f	signature:(int Nvertex, int Nedge)
+CreatDirectedGraph	Graph.h	/^VertexHead * CreatDirectedGraph(int Nvertex, int Nedge);$/;"	p	signature:(int Nvertex, int Nedge)
+CreatUndirectedGraph	Graph.c	/^VertexHead *CreatUndirectedGraph(int Nvertex, int Nedge) $/;"	f	signature:(int Nvertex, int Nedge)
+CreatUndirectedGraph	Graph.h	/^VertexHead * CreatUndirectedGraph(int Nvertex, int Nedge);$/;"	p	signature:(int Nvertex, int Nedge)
+DFSVisit	Graph.c	/^void DFSVisit (VertexHead *Graph, int index) {$/;"	f	signature:(VertexHead *Graph, int index)
+DFSVisit	Graph.h	/^void DFSVisit (VertexHead *Graph, int index);$/;"	p	signature:(VertexHead *Graph, int index)
+Degree	Graph.h	/^	int		Degree;$/;"	m	struct:VertexNode	access:public
+DepthFirstSearch	Graph.c	/^void DepthFirstSearch(VertexHead *Graph, int Nvertex) {$/;"	f	signature:(VertexHead *Graph, int Nvertex)
+DepthFirstSearch	Graph.h	/^void DepthFirstSearch(VertexHead *Graph, int Nvertex);$/;"	p	signature:(VertexHead *Graph, int Nvertex)
+Dequeue	Graph.c	/^int Dequeue() {$/;"	f
+EdgeNode	Graph.h	/^typedef struct EdgeNode {$/;"	s
+EdgeNode::Next	Graph.h	/^	struct	EdgeNode *Next;$/;"	m	struct:EdgeNode	typeref:struct:EdgeNode::EdgeNode	access:public
+EdgeNode::Vertex	Graph.h	/^	int		Vertex;$/;"	m	struct:EdgeNode	access:public
+Enqueue	Graph.c	/^int Enqueue(int value) {$/;"	f	signature:(int value)
+Front	Graph.c	/^int Rear = 0, Front = 0, QueueSize = 0, linkCount;$/;"	v
+GraphTranspose	Graph.c	/^VertexHead * GraphTranspose(VertexHead *Graph, int Nvertex)$/;"	f	signature:(VertexHead *Graph, int Nvertex)
+GraphTranspose	Graph.h	/^VertexHead * GraphTranspose(VertexHead *Graph, int Nvertex);$/;"	p	signature:(VertexHead *Graph, int Nvertex)
+Grey	Graph.c	8;"	d	file:
+LinkNode	Graph.h	/^typedef struct LinkNode {$/;"	s
+LinkNode::next	Graph.h	/^	struct LinkNode *next;$/;"	m	struct:LinkNode	typeref:struct:LinkNode::LinkNode	access:public
+LinkNode::vertex	Graph.h	/^	int vertex;$/;"	m	struct:LinkNode	access:public
+Next	Graph.h	/^	struct	EdgeNode *Next;$/;"	m	struct:EdgeNode	typeref:struct:EdgeNode::EdgeNode	access:public
+Next	Graph.h	/^	struct	EdgeNode *Next;$/;"	m	struct:VertexNode	typeref:struct:VertexNode::EdgeNode	access:public
+Parent	Graph.h	/^	int 	Parent;$/;"	m	struct:VertexNode	access:public
+PrintGraph	AdjList.c	/^void PrintGraph(VertexHead *Graph, int Nvertex) {$/;"	f	signature:(VertexHead *Graph, int Nvertex)
+PrintGraph	AdjList.c	/^void PrintGraph(VertexHead *Graph, int Nvertex);$/;"	p	file:	signature:(VertexHead *Graph, int Nvertex)
+PrintPath	AdjList.c	/^void PrintPath(VertexHead* Graph, int From, int To)$/;"	f	signature:(VertexHead* Graph, int From, int To)
+PrintPath	AdjList.c	/^void PrintPath(VertexHead* Graph, int From, int To);$/;"	p	file:	signature:(VertexHead* Graph, int From, int To)
+Queue	Graph.c	/^int Queue[1024];$/;"	v
+QueueSize	Graph.c	/^int Rear = 0, Front = 0, QueueSize = 0, linkCount;$/;"	v
+Rear	Graph.c	/^int Rear = 0, Front = 0, QueueSize = 0, linkCount;$/;"	v
+Time	Graph.h	/^	int		Time;$/;"	m	struct:VertexNode	access:public
+Timef	Graph.c	/^int Timef[1024];$/;"	v
+Times	Graph.c	/^int Times[1024];$/;"	v
+TopLink	Graph.h	/^} TopLink;$/;"	t	typeref:struct:LinkNode
+TopSort	Graph.c	/^void TopSort(VertexHead* Graph, int Nvertex)$/;"	f	signature:(VertexHead* Graph, int Nvertex)
+TopSort	Graph.h	/^void TopSort(VertexHead* Graph, int Nvertex);$/;"	p	signature:(VertexHead* Graph, int Nvertex)
+Vertex	Graph.h	/^	int		Vertex;$/;"	m	struct:EdgeNode	access:public
+Vertex	Graph.h	/^} Vertex;$/;"	t	typeref:struct:EdgeNode
+VertexHead	Graph.h	/^} VertexHead;$/;"	t	typeref:struct:VertexNode
+VertexNode	Graph.h	/^typedef struct VertexNode{$/;"	s
+VertexNode::Color	Graph.h	/^	int 	Color;$/;"	m	struct:VertexNode	access:public
+VertexNode::Degree	Graph.h	/^	int		Degree;$/;"	m	struct:VertexNode	access:public
+VertexNode::Next	Graph.h	/^	struct	EdgeNode *Next;$/;"	m	struct:VertexNode	typeref:struct:VertexNode::EdgeNode	access:public
+VertexNode::Parent	Graph.h	/^	int 	Parent;$/;"	m	struct:VertexNode	access:public
+VertexNode::Time	Graph.h	/^	int		Time;$/;"	m	struct:VertexNode	access:public
+White	Graph.c	7;"	d	file:
+link	Graph.c	/^TopLink * link;$/;"	v
+linkCount	Graph.c	/^int Rear = 0, Front = 0, QueueSize = 0, linkCount;$/;"	v
+main	AdjList.c	/^int main(void) $/;"	f	signature:(void)
+main	cpu.c	/^int main(void) $/;"	f	signature:(void)
+next	Graph.h	/^	struct LinkNode *next;$/;"	m	struct:LinkNode	typeref:struct:LinkNode::LinkNode	access:public
+vertex	Graph.h	/^	int vertex;$/;"	m	struct:LinkNode	access:public
